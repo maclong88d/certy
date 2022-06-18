@@ -5,9 +5,11 @@ body { font-family: "Inter", sans-serif; font-size: 18px; font-weight: 400; line
 
 h1 { font-weight: 700; font-size: 94px; line-height: 100px; }
 
-h2 { font-weight: 700; font-size: 40px; line-height: 48px; }
+h2 { font-weight: 700; font-size: 40px; line-height: 48px; margin-bottom: 12px; }
 
 h3 { font-weight: 600; font-size: 36px; line-height: 52px; }
+
+h4 { font-weight: 700; font-size: 28px; line-height: 36px; }
 
 .box { position: relative; top: 1500px; width: 50px; height: 50px; background-color: #999999; }
 
@@ -42,11 +44,70 @@ img { max-width: 100%; }
 .wrapper-network .wrapper-network-list { display: flex; flex-wrap: wrap; margin-top: 80px; }
 .wrapper-network .wrapper-network-list .wrapper-network-item { width: 25%; box-sizing: border-box; }
 .wrapper-network .wrapper-network-list .wrapper-network-item p { font-weight: 400; font-size: 18px; line-height: 32px; color: #273266; max-width: 240px; }
-.wrapper-network .wrapper-network-list .wrapper-network-item img { border-top: 15px solid #fff; border-left: 12px solid #fff; border-bottom: 15px solid #fff; border-right: 12px solid #fff; box-shadow: 0px 12px 20px rgba(156, 182, 223, 0.4); border-radius: 16px; }
+.wrapper-network .wrapper-network-list .wrapper-network-item img { border-top: 15px solid #fff; border-left: 12px solid #fff; border-bottom: 15px solid #fff; border-right: 12px solid #fff; box-shadow: 0px 12px 20px rgba(156, 182, 223, 0.4); border-radius: 16px; margin-bottom: 18px; }
 
 .section-banner { position: relative; padding-bottom: 190px; }
 
 .section-network { position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0px); }
+
+section.ceSocial { padding-top: 120px; padding-bottom: 120px; }
+section.ceSocial .wrapper-ceSocial { display: flex; flex-wrap: wrap; align-items: center; }
+section.ceSocial .wrapper-ceSocial .wrapper-ceSocial-left { width: 50%; }
+section.ceSocial .wrapper-ceSocial .wrapper-ceSocial-left .wrapper-ceSocial-image-content p { max-width: 456px; }
+section.ceSocial .wrapper-ceSocial .wrapper-ceSocial-right { width: 50%; }
+section.ceSocial .wrapper-ceSocial .wrapper-ceSocial-right .wrapper-ceSocial-images { max-width: 552px; max-height: 368px; display: flex; justify-content: right; }
+section.ceSocial .wrapper-ceSocial .wrapper-ceSocial-right .wrapper-ceSocial-images img { width: 100%; height: 100%; object-fit: cover; border-radius: 20px; }
+
+section.ceStorage { padding-top: 120px; padding-bottom: 120px; background-size: contain; background-repeat: no-repeat; background-position: right; }
+section.ceStorage .wrapper-ceStorage { display: flex; flex-wrap: wrap; align-items: center; flex-direction: row-reverse; position: relative; }
+section.ceStorage .wrapper-ceStorage img.wrapper-ceStorage-icon-bottom { position: absolute; left: 0; bottom: 0; }
+section.ceStorage .wrapper-ceStorage img.wrapper-ceStorage-icon-robot { position: absolute; top: -50%; }
+section.ceStorage .wrapper-ceStorage .wrapper-ceStorage-left { width: 50%; }
+section.ceStorage .wrapper-ceStorage .wrapper-ceStorage-left .wrapper-ceStorage-image-content p { max-width: 456px; }
+section.ceStorage .wrapper-ceStorage .wrapper-ceStorage-right { width: 50%; }
+section.ceStorage .wrapper-ceStorage .wrapper-ceStorage-right .wrapper-ceStorage-images { max-width: 552px; max-height: 368px; display: flex; justify-content: right; }
+section.ceStorage .wrapper-ceStorage .wrapper-ceStorage-right .wrapper-ceStorage-images img { width: 100%; height: 100%; object-fit: cover; border-radius: 20px; }
+
+section.CeCareer { padding-top: 120px; padding-bottom: 120px; }
+section.CeCareer .wrapper-CeCareer { display: flex; flex-wrap: wrap; align-items: center; }
+section.CeCareer .wrapper-CeCareer .wrapper-CeCareer-left { width: 50%; }
+section.CeCareer .wrapper-CeCareer .wrapper-CeCareer-left .wrapper-CeCareer-image-content p { max-width: 456px; }
+section.CeCareer .wrapper-CeCareer .wrapper-CeCareer-right { width: 50%; }
+section.CeCareer .wrapper-CeCareer .wrapper-CeCareer-right .wrapper-CeCareer-images { max-width: 552px; max-height: 368px; display: flex; justify-content: right; }
+section.CeCareer .wrapper-CeCareer .wrapper-CeCareer-right .wrapper-CeCareer-images img { width: 100%; height: 100%; object-fit: cover; border-radius: 20px; }
+
+section.ceLearning { padding-top: 120px; padding-bottom: 120px; }
+section.ceLearning .wrapper-ceLearning { display: flex; flex-wrap: wrap; align-items: center; flex-direction: row-reverse; position: relative; }
+section.ceLearning .wrapper-ceLearning img.wrapper-ceStorage-icon-bottom { position: absolute; right: 0; bottom: 0; }
+section.ceLearning .wrapper-ceLearning .wrapper-ceLearning-left { width: 50%; }
+section.ceLearning .wrapper-ceLearning .wrapper-ceLearning-left .wrapper-ceLearning-image-content { max-width: 456px; margin: auto; }
+section.ceLearning .wrapper-ceLearning .wrapper-ceLearning-right { width: 50%; }
+section.ceLearning .wrapper-ceLearning .wrapper-ceLearning-right .wrapper-ceLearning-images { max-width: 552px; max-height: 368px; display: flex; justify-content: right; }
+section.ceLearning .wrapper-ceLearning .wrapper-ceLearning-right .wrapper-ceLearning-images img { width: 100%; height: 100%; object-fit: cover; border-radius: 20px; }
+
+section.near { position: relative; padding-bottom: 25px; padding-top: 100px; background-image: url(/images/bg-nare.png); background-size: cover; color: #fff; margin-bottom: 45px; }
+section.near img.icon_near_botom_l { position: absolute; left: 80px; top: 50px; }
+section.near img.icon_near_botom_r { position: absolute; right: 80px; bottom: -45px; }
+section.near img.icon_robot_bottom { position: absolute; bottom: -45px; }
+section.near .wrapper-near { display: flex; align-items: center; flex-wrap: wrap; }
+section.near .wrapper-near .wrapper-near-left { width: 50%; box-sizing: border-box; }
+section.near .wrapper-near .wrapper-near-left .wrapper-near-box-content p { margin-bottom: 9px; }
+section.near .wrapper-near .wrapper-near-left .wrapper-near-box-content h3 { margin-bottom: 28px; }
+section.near .wrapper-near .wrapper-near-left .wrapper-near-box-content .wrapper-near-box-content-list { display: flex; align-items: center; }
+section.near .wrapper-near .wrapper-near-left .wrapper-near-box-content .wrapper-near-box-content-list .wrapper-near-box-content-items { margin-right: 12px; padding: 15px 50px; height: 62.9px; display: flex; align-items: center; background: rgba(217, 217, 217, 0.102); border-radius: 12px; box-sizing: border-box; }
+section.near .wrapper-near .wrapper-near-right { width: 50%; box-sizing: border-box; }
+section.near .wrapper-near .wrapper-near-right .wrapper-near-box-images { background: #ffffff; box-shadow: 0px 40px 60px rgba(11, 29, 67, 0.12); display: flex; border-radius: 20px; width: 608px; height: 480px; }
+section.near .wrapper-near .wrapper-near-right .wrapper-near-box-images img { border-radius: 20px; width: 100%; height: 100%; object-fit: cover; }
+
+section.roadmap { padding-top: 100px; padding-bottom: 100px; }
+section.roadmap span.stick { margin-left: 12px; margin-bottom: 18px; }
+section.roadmap .wrapper-roadmap-list { display: flex; flex-wrap: wrap; }
+section.roadmap .wrapper-roadmap-list .wrapper-roadmap-item { width: 33.33%; box-sizing: border-box; padding: 0px 12px 24px; }
+section.roadmap .wrapper-roadmap-list .wrapper-roadmap-item .wrapper-roadmap-item-box { background: linear-gradient(180deg, #0352c6 0%, #0f3170 100%); border-radius: 20px; box-sizing: border-box; padding: 40px 32px; color: #fff; height: 100%; }
+section.roadmap .wrapper-roadmap-list .wrapper-roadmap-item .wrapper-roadmap-item-box span { letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-size: 12px; line-height: 20px; display: inline-block; margin-bottom: 14px; }
+section.roadmap .wrapper-roadmap-list .wrapper-roadmap-item .wrapper-roadmap-item-box h4 { margin-bottom: 24px; }
+section.roadmap .wrapper-roadmap-list .wrapper-roadmap-item .wrapper-roadmap-item-box ul li { display: flex; align-items: center; list-style: none; margin-bottom: 4; font-weight: 400; font-size: 18px; line-height: 32px; }
+section.roadmap .wrapper-roadmap-list .wrapper-roadmap-item .wrapper-roadmap-item-box ul li img { margin-left: 8px; }
 
 @media screen and (min-width: 1240px) { .wp { width: 1200px; margin: auto; }
   .wp-not-full { width: 1280px; margin: auto; } }
