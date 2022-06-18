@@ -4,7 +4,7 @@ $bg_linear_gradient: hsla(209, 100%, 73%, 0.165);
 $main_color: #273266;
 $color_stick: #0c43ba;
 $color_bg: #fff;
-$color_hover: #05b4de;
+$color_hover: #0383a3;
 
 @mixin bgTem {
   position: absolute;
@@ -81,16 +81,15 @@ body {
   display: inline-block;
 }
 header.sticky {
-  background-image: linear-gradient(to right, #0351c2, #7ea5ca);
-  transition: all 1s;
-  transition-timing-function: linear;
+  background: #069ccf;
+  position: fixed;
   top: 0;
+  transition: all 0.8s;
+  animation-timing-function: ease;
 }
 header {
-  position: sticky;
+  position: relative;
   width: 100%;
-  background: transparent;
-  top: 0px;
   padding: 12px;
   box-sizing: border-box;
   margin-bottom: -76px;
@@ -111,7 +110,7 @@ header {
           line-height: 28px;
           text-decoration: none;
           padding: 0px 40px 0px;
-          transition: all 1s;
+          transition: 1s color;
         }
         a:hover {
           color: $color_hover;
@@ -575,6 +574,7 @@ footer {
   background-repeat: no-repeat;
   color: #fff;
   position: relative;
+
   img.background-icon-item-w {
     position: absolute;
     bottom: 0px;
@@ -612,6 +612,10 @@ footer {
             color: #ffffff;
             margin-bottom: 8px;
             text-decoration: none;
+            transition: all 0.8s;
+          }
+          a:hover {
+            color: $color_hover;
           }
         }
       }
@@ -629,9 +633,13 @@ footer {
             text-decoration: none;
             display: flex;
             align-items: center;
+            transition: all 0.8s;
             img {
               margin-right: 11px;
             }
+          }
+          a:hover {
+            color: $color_hover;
           }
         }
       }

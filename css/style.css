@@ -17,14 +17,14 @@ body { height: 2500px; }
 
 .stick { color: #0c43ba; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-size: 12px; line-height: 20px; background: #d2e6f9; border-radius: 8px; padding: 10px 20px; margin-bottom: 12px; display: inline-block; }
 
-header.sticky { background-image: linear-gradient(to right, #0351c2, #7ea5ca); transition: all 1s; transition-timing-function: linear; top: 0; }
+header.sticky { background: #069ccf; position: fixed; top: 0; transition: all 0.8s; animation-timing-function: ease; }
 
-header { position: sticky; width: 100%; background: transparent; top: 0px; padding: 12px; box-sizing: border-box; margin-bottom: -76px; z-index: 99; }
+header { position: relative; width: 100%; padding: 12px; box-sizing: border-box; margin-bottom: -76px; z-index: 99; }
 header .header-wrapper { display: flex; align-items: center; justify-content: space-between; }
 header .header-wrapper ul { display: flex; }
 header .header-wrapper ul li { list-style: none; }
-header .header-wrapper ul li a { color: #ffffff; font-weight: 400; font-size: 16px; line-height: 28px; text-decoration: none; padding: 0px 40px 0px; transition: all 1s; }
-header .header-wrapper ul li a:hover { color: #05b4de; }
+header .header-wrapper ul li a { color: #ffffff; font-weight: 400; font-size: 16px; line-height: 28px; text-decoration: none; padding: 0px 40px 0px; transition: 1s color; }
+header .header-wrapper ul li a:hover { color: #0383a3; }
 
 img { max-width: 100%; }
 
@@ -130,11 +130,13 @@ footer .wrapper-footer .logo_footer p { font-weight: 400; font-size: 16px; line-
 footer .wrapper-footer .wrapper-footer-content { margin-bottom: 120px; width: 50%; display: flex; flex-wrap: wrap; }
 footer .wrapper-footer .wrapper-footer-content .menu-footer { width: 50%; }
 footer .wrapper-footer .wrapper-footer-content .menu-footer li { list-style: none; }
-footer .wrapper-footer .wrapper-footer-content .menu-footer li a { font-weight: 400; font-size: 16px; line-height: 28px; color: #ffffff; margin-bottom: 8px; text-decoration: none; }
+footer .wrapper-footer .wrapper-footer-content .menu-footer li a { font-weight: 400; font-size: 16px; line-height: 28px; color: #ffffff; margin-bottom: 8px; text-decoration: none; transition: all 0.8s; }
+footer .wrapper-footer .wrapper-footer-content .menu-footer li a:hover { color: #0383a3; }
 footer .wrapper-footer .wrapper-footer-content .mxh-footer { width: 50%; }
 footer .wrapper-footer .wrapper-footer-content .mxh-footer li { list-style: none; }
-footer .wrapper-footer .wrapper-footer-content .mxh-footer li a { font-weight: 400; font-size: 16px; line-height: 28px; color: #ffffff; margin-bottom: 8px; text-decoration: none; display: flex; align-items: center; }
+footer .wrapper-footer .wrapper-footer-content .mxh-footer li a { font-weight: 400; font-size: 16px; line-height: 28px; color: #ffffff; margin-bottom: 8px; text-decoration: none; display: flex; align-items: center; transition: all 0.8s; }
 footer .wrapper-footer .wrapper-footer-content .mxh-footer li a img { margin-right: 11px; }
+footer .wrapper-footer .wrapper-footer-content .mxh-footer li a:hover { color: #0383a3; }
 footer p.certyChain { text-align: center; font-weight: 400; font-size: 16px; line-height: 28px; color: #e9e6e5; padding: 14px 0px 10px; border-top: 1px solid #ffffff4f; }
 
 .wp_bg_blud { position: relative; }
