@@ -1,38 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.min.css" />
-  </head>
-  <body>
-    <div class="holdMe2">
-        <div class="resizeMe2">
-          <h3>holdMe</h3>
-          <h3>closer</h3>
-          <p>tiny scroller</p>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="wp">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./images//icon/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="menu-wrapper">
+                    <ul>
+                        <li><a href="#">About Certy</a></li>
+                        <li><a href="#">Use cases</a></li>
+                        <li><a href="#">System diagram</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
-      </div>
-    <div class="wrapper">
-        <div class="box">name</div>
+    </header>
+    <div class="section-banner">
+        <div class="wrapper-banner">
+            <img src="./images//bg-banner.png" alt="banner-home">
+            <div class="wrapper-banner-content">
+            <div class="wp">
+                <div class="wrapper-banner-content-box">
+                <h1>Certify Your Future</h1>
+                <p>Improve career development and pave the way to the future.</p>
+                <div class="wrapper-banner-text-mouse">
+                    <img src="/images/icon/mouse.svg" alt="mouse">
+                    <span>scroll down</span>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="section-network">
+            <div class="wp-not-full">
+                <div class="wrapper-network">
+                    <div class="wrapper-network-box">
+                        <span class="stick">What is Certy Network?</span>
+                        <h3>Certy Network is a blockchain-based interconnected system advancing the interoperability of Web3 with decentralized services.It offers: </h3>
+                        <div class="wrapper-network-list">
+                            <div class="wrapper-network-item">
+                                <img src="./images/icon/icon01.svg" alt="icon_1">
+                                <p>Business and employment-oriented online service</p>
+                            </div>
+                            <div class="wrapper-network-item">
+                                <img src="./images/icon/icon02.svg" alt="icon_2">
+                                <p>Storage hub for degrees and certificates in NFT-minted form</p>
+                            </div>
+                            <div class="wrapper-network-item">
+                                <img src="./images/icon/icon03.svg" alt="icon_3">
+                                <p>Portal for recruiters and job seekers</p>
+                            </div>
+                            <div class="wrapper-network-item">
+                                <img src="./images/icon/icon04.svg" alt="icon_4">
+                                <p>Tokenized learning model to personalize learning pathways suiting career orientation</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>  
+    <section class="ceSocial">
+
+    </section>
+    <footer>
+
+    </footer>
     </div>
-</div>
-  </body>
+</body>
+
 </html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
-<script>
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.to(".box",{
-        scrollTrigger:{
-            trigger: "body",
-        },
-        marker:true,
-        pin: true,
-        x:500,
-        y:200,
-        scrub:1,
-        duration:4
-    });
-</script>
